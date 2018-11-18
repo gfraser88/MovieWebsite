@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>The Final Cut</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link href="CSS/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<a href="index.html"><img  class="logo" alt = "the final cut logo" src="images/logo.png"></a>
+		<nav>
+			<a href="#"><img class="menu" alt="menu logo" src="images/menu.png"></a>
+			<ul>
+				<li class="home">
+					<a href="index.html">Home</a>
+				</li>
+
+				<li>
+					<a href="movie-review.html">Movie Reviews</a>
+				</li>
+
+				<li>
+					<a href="tv-review.html">TV Reviews</a>
+				</li>
+
+				<li>
+					<a href="upcoming-releases.html">New Releases</a>
+				</li>
+			</ul>
+		</nav>
+	</header>
+	<div id="index">
+
+		<section class="movie_reviews">
+			<a href="movie-review.html"><h1>Movie Reviews</h1></a>
+			<h2>Dunkirk</h2>
+			 <a href="movie-review.html"><img alt="dunkirk" src="images/dunkirk.jpg"></a>
+		</section>
+
+
+
+		<section class="tv_reviews">
+			<a href="tv-review.html"><h1>TV Reviews</h1></a>
+			<h2>Stranger Things: Season 2</h2>
+			<a href="tv-review.html"><img alt="stranger things" src="images/strangerthings.jpg"></a>
+		</section>
+
+		<section class="new_releases">
+			<h1>New Releases in January:</h1>
+			<div class="wrapper">
+				<div>
+				<a href="upcoming-releases.html"><img alt="i tonya poster" src="images/itonya.jpg"></a>
+				<h2>I, Tonya</h2>
+				</div>
+
+				<div>
+				<a href="upcoming-releases.html"><img alt="mollys game poster" src="images/mollysgame.jpg"></a>
+				<h2>Molly's Game</h2>
+				</div>
+
+				<div>
+				<a href="upcoming-releases.html"><img alt="the post poster" src="images/thepost.jpg"></a>
+				<h2>The Post</h2>
+				</div>
+				
+			</div>
+		</section>
+
+		<div class="form">
+			<h1>What Should We Review Next?</h1>
+			<form action="http://webdevbasics.net/scripts/demo.php" method="post">
+				<fieldset>
+					<legend>Pick One</legend>
+						<input id="starwars" name="movietvname" type="radio" value="starwars">
+						<label for="starwars">Star Wars: The Last Jedi</label> <br>
+
+						<input id="mrrobot" name="movietvname" type="radio" value="mrrobot">
+						<label for="mrrobot">Mr. Robot: Season 3</label><br>
+
+						<input id="disasterartist" name="movietvname" type="radio" value="disasterartist">
+						<label for="disasterartist">The Disaster Artist</label>
+
+						<input type="submit" value="Submit">
+				</fieldset>
+			</form>
+		</div>
+	</div>
+		<footer>
+			<small>&copy;2017 Graeme Fraser</small>
+		</footer>
+
+</body>
+</html>
